@@ -1,0 +1,130 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: poppins, sans-serif;
+
+}
+ 
+body{
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    
+}
+.navbar{
+    margin-top: 10px;
+}
+.logo{
+    width: 40px;
+    color: #FDEF02;
+    text-shadow: 0 0 20px black;
+    height: 40px;
+    filter:drop-shadow(0 0 10px white);
+}
+
+.myinfo
+{
+    position: relative;
+    top: 200px;
+    left: 900px;
+    width: 500px;
+    color:#ede991;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.73);
+}
+
+.nav-link
+{
+    color:white;
+}
+.nav-item{
+color: white;
+margin-left: 20px;
+}
+.btn{
+    border:none;
+    color: #FDEF02;
+    background: transparent;
+    border: 1px solid #FDEF02;
+    border-radius: 50px;
+}
+.holi{
+   
+    color:transparent;
+    background-clip: border-box;
+    color: #FDEF02;
+    /* list-style: none; */
+    font-size: 20px;
+    font-weight: bold;
+    /* position: relative; */
+    /* top: 0; */
+}
+h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+
+.nav-link:hover
+{
+   color: #FDEF02;
+   text-shadow: 0 0 20px black;
+}
+video
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -2;
+    height: auto;
+    width: 100%;
+    filter: blur(100);
+}
+.hue{
+    color: rgb(225, 255, 0);
+    
+    font-weight: bold;
+    animation: hue 5s infinite;
+}
+
+@keyframes hue{
+    0%{
+        -webkit-filter: hue-rotate(0deg);
+    }
+    100%{
+
+        -webkit-filter: hue-rotate(700deg);
+    }
+/* }
+
+.audio-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100; /* Ensure audio controls are above other content */
+    display: flex; /* Arrange controls horizontally */
+    align-items: center;
+  }
+  
+  .audio-controls {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable elements */
+  }
+  
+  .audio-controls button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px; /* Spacing between button and slider */
+  }
+  
+  .audio-controls input[type="range"] {
+    width: 100px; /* Adjust slider width as needed */
+  }
+   */

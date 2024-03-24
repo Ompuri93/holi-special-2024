@@ -1,0 +1,169 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  body {
+   
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, #ff9999, #66b3ff);
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-image:url(imge/butterfly\ \(3\).jpeg);
+    color: #ffffff;
+    padding: 15px 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #f0e6ff;
+  }
+  
+  /* About Me section */
+  .about-me {
+    background-image: url(imge/butterfly\ \(3\).jpeg);
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+  
+  p{
+    background-color: #333;
+    font-style:oblique;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+  }
+  
+
+  
+  
+  /* Info container */
+  .info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Profile picture */
+  .profile-pic {
+     background-image: url(imge/myimg.jpg); 
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #f3efef;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-pic:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Animation for profile picture glow (optional) */
+  @keyframes profile-pic-glow {
+    from { box-shadow: 5 0 10px #d87777; }
+    to { box-shadow: 0 4 10px #e5dddd, 3 0 20px #9c1975, 0 0 30px #66b3ff; }
+  }
+  
+  .profile-pic.animated {
+    animation: profile-pic-glow 2s infinite alternate;
+  }
+  
+  /* Bio section */
+  .bio {
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .cta-btn {
+    background-color: #f0e6ff; /* Lighter Holi color for contrast */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable button */
+    transition: background-color 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .cta-btn:hover {
+    background-color: #fa9090; /* Lighter shade on hover */
+  }
+/*   
+
+  .audio-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100; /* Ensure audio controls are above other content */
+    display: flex; /* Arrange controls horizontally */
+    align-items: center;
+  }
+  
+  .audio-controls {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable elements */
+  }
+  
+  .audio-controls button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px; /* Spacing between button and slider */
+  }
+  
+  .audio-controls input[type="range"] {
+    width: 100px; /* Adjust slider width as needed */
+  }
+   */
