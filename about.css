@@ -19,7 +19,7 @@
   
   /* Navigation bar */
   .navbar {
-    background-image:url(imge/butterfly\ \(3\).jpeg);
+    background-image:url(butterfly\ \(3\).jpeg);
     color: #ffffff;
     padding: 15px 25px;
     position: fixed;
@@ -46,7 +46,7 @@
   
   /* About Me section */
   .about-me {
-    background-image: url(imge/butterfly\ \(3\).jpeg);
+    background-image: url(butterfly\ \(3\).jpeg);
     padding: 100px 0;
     color: #fff;
     text-align: center;
@@ -82,7 +82,7 @@
   
   /* Profile picture */
   .profile-pic {
-     background-image: url(imge/myimg.jpg); 
+     background-image: url(myimg.jpg); 
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -136,7 +136,7 @@
   .cta-btn:hover {
     background-color: #fa9090; /* Lighter shade on hover */
   }
-/*   
+/*
 
   .audio-container {
     position: fixed;
